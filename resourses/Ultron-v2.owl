@@ -1,0 +1,560 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/georg/ontologies/2018/1/Ultron-v2.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/georg/ontologies/2018/1/Ultron-v2.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/georg/ontologies/2018/1/Ultron-v2.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Truck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#NotWorking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isMoving"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Vector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Time"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsNotPresent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#speedOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#LivingThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowSpeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#NonLivingThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waggon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isNotMoving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Object"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#timeDateOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManOnBike"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighSpeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Crossroad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsPresent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#SomeElement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesX"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isNonLivingThing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasPosition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasVolume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LightSpeed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isLivingThing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Working"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MidSpeed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cow"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#SomeElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cow"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsPresent"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cow"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasPosition"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cow"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isLivingThing"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#LivingThing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cow"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isMoving"/>
+            <Class IRI="#LowSpeed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighSpeed"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightSpeed"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowSpeed"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManOnBike"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#SomeElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManOnBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#LowSpeed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManOnBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasPosition"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManOnBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isLivingThing"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#LivingThing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManOnBike"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isNotMoving"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MidSpeed"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truck"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#SomeElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <AnonymousIndividual nodeID="_:genid-e779d651-ea0c-4810-9664-973c66459be4"/>
+        </Annotation>
+        <Class IRI="#Truck"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#SomeElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#MidSpeed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasPosition"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isNonLivingThing"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#NonLivingThing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truck"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsPresent"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#SomeElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#LightSpeed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsPresent"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Time"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasPosition"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isMoving"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Vector"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waggon"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#SomeElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waggon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#LowSpeed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waggon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsPresent"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Time"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waggon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasPosition"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waggon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isMoving"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Vector"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#SomeElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeed"/>
+            <Class IRI="#HighSpeed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsPresent"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Time"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasPosition"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isNonLivingThing"/>
+            <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#NonLivingThing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Crossroad"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#LivingThing"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#NonLivingThing"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Object"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Sensor"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Cow"/>
+        <Class IRI="#ManOnBike"/>
+        <Class IRI="#Truck"/>
+        <Class IRI="#Waggon"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cow"/>
+        <Class IRI="#ManOnBike"/>
+        <Class IRI="#Truck"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cow"/>
+        <Class IRI="#Truck"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HighSpeed"/>
+        <Class IRI="#LowSpeed"/>
+        <Class IRI="#MidSpeed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#LivingThing"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#NonLivingThing"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Car1"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSpeed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isMoving"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsNotPresent"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsNotPresent"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsPresent"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#NotWorking"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#NotWorking"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Working"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Working"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasName"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasPosition"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasVolume"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isMoving"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isNotMoving"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsNotPresent"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#IsPresent"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasName"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasPosition"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#hasVolume"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#BaseElement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isMoving"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#isNotMoving"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesX"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#speedOf"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesX"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Object"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesX"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesX"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Sensor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesY"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Object"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesY"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesY"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Sensor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#speedOf"/>
+        <Class IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#Object"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#time"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#timeDateOf"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesX"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#coordinatesY"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#speedOf"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#time"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/georg/ontologies/2018/1/untitled-ontology-6#timeDateOf"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DatatypeDefinition>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DatatypeDefinition>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
